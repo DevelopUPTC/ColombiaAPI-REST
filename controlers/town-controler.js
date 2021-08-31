@@ -31,7 +31,7 @@ const controler = {
             }else if( !result ){
                 return res.status(200).json({
                     state : "Error",
-                    message: "No Exiasten Datos"
+                    message: "No Existen Datos"
                 });
             }
             return res.status(200).json({

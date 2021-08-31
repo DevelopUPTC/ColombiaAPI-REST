@@ -56,6 +56,6 @@ npm start
 
 Todas las rutas especificadas son de tipo `GET`
 
-- __/api/colombia/departments__: Retorna una colección de objetos `JSON` con todos los departamentos de Colombia
-- __/api/colombia/towns__:  Retorna una colección de objetos `JSON` con todos los municipios de Colombia
-- __/api/colombia/towns/:code__: Se pasa un parámetro que especifica el código del departamento, retorna todos los municipios del departamento.
+- __/api/departments__: Retorna una colección de objetos `JSON` con todos los departamentos de Colombia
+- __/api/towns__:  Retorna una colección de objetos `JSON` con todos los municipios de Colombia
+- __/api/towns/:code__: Se pasa un parámetro que especifica el código del departamento, retorna todos los municipios del departamento.
